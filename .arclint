@@ -1,0 +1,33 @@
+{
+	"linters": {
+		"php-basic": {
+			"type": "php",
+				"include": "(\\.php$)"
+		},
+		"json-basic": {
+			"type": "json",
+			"include": "(\\.json$)"
+		},
+		"filename": {
+			"type": "filename"
+		},
+		"chmod": {
+			"type": "chmod"
+		},
+		"merge-conflict": {
+			"type": "merge-conflict"
+		},
+		"composer": {
+			"type": "composer"
+		},
+		"phpcs": {
+			"type": "phpcs",
+			"include": "(\\.php$)",
+			"bin": ["phpcs"]
+		},
+		"flake8": {
+			"type": "flake8",
+			"include": "(\\.py$)"
+		}
+	}
+}

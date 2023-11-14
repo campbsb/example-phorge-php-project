@@ -1,0 +1,7 @@
+{
+    "phabricator.uri": "https:\/\/my.phorge.site",
+    "repository.callsign": "MYREPO",
+    "unit.engine": "PhpunitTestEngine",
+    "phpunit_config": "phpunit.xml",
+    "arc.feature.start.default": "origin/master"
+}
